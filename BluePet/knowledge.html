@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-tw">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>藍色星球｜寵物用品專賣店 寵物專欄</title>
+    <!-- icon -->
+    <link rel="icon" href="IMG/icon.svg">
+    <!-- css -->
+    <link rel="stylesheet" href="bs-5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="icons-1.8.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body class="knowledge page-bg-img">
+    <!-- 導覽列 -->
+    <nav class="navbar navbar-expand-xl navbar-light bg-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html" title="藍色星球｜寵物用品專賣店-首頁">
+                <div class="logo">
+                    <img src="IMG/Logo.png" alt="藍色星球｜寵物用品專賣店" class="img-fluid d-none d-lg-block">
+                </div>
+                <h1 class="d-lg-none text-info">藍色星球｜寵物用品專賣店</h1>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarBasic"
+                aria-controls="navbarBasic" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarBasic">
+                <ul class="navbar-nav me-auto mb-2 mb-xl-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="index.html" title="首頁">首頁</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html" title="關於我們">關於我們</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">上架商品</a>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <li><a class="dropdown-item" href="hot-product.html">熱門商品</a></li>
+                            <li><a class="dropdown-item" href="sale-product.html">促銷商品</a></li>
+                            <li><a class="dropdown-item" href="#">商品 3</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="knowledge.html" title="寵物專欄">寵物專欄</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html" title="聯絡我們">聯絡我們</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2 btn-outline-info" type="search" placeholder="搜尋" aria-label="Search">
+                    <button class="btn text-info" type="submit">
+                        <i class="bi bi-search-heart"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!-- 輪播圖 -->
+    <header class="slides-area">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            </div>
+            <!-- 圖片 -->
+            <div class="carousel-inner">
+                <div class="carousel-item active bg-img" style="background-image: url(IMG/banner-2.jpg);"></div>
+                <div class="carousel-item bg-img" style="background-image: url(IMG/banner-4.jpg);"></div>
+            </div>
+            <!-- 左右按鈕/圖標 -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </header>
+    <main class="bg-img pb-5">
+        <section>
+            <div class="container">
+                <div class="py-5 text-center">
+                    <h2 class="text-info display-5">寵物專欄</h2>
+                </div><!-- page-title -->
+                <!-- accordion -->
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="heading-1">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-1" aria-expanded="false" aria-controls="collapse-1">
+                                1. 減少寵物掉毛、維持環境整潔
+                            </button>
+                        </h2>
+                        <div id="collapse-1" class="accordion-collapse collapse" aria-labelledby="heading-1" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <p>尤其是每年春季和秋季，正值毛孩換毛高峰期，家中一定無時無刻都飄著廢毛！幫毛孩梳毛的話，可以幫助毛孩更有效率地將身上的廢毛清掉，也因此能夠大大減少寵物掉毛的情況。</p>
+                            </div>
+                        </div>
+                    </div><!-- accordion-item-1 -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="heading-2">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-2" aria-expanded="false" aria-controls="collapse-2">
+                                2. 發現潛藏在毛髮下的危機
+                            </button>
+                        </h2>
+                        <div id="collapse-2" class="accordion-collapse collapse" aria-labelledby="heading-2" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <h3>了解自家毛孩的皮膚狀況</h3>
+                                <ul>
+                                    <li>有沒有皮膚疾病</li>
+                                    <li>有沒有寄生蟲或跳蚤</li>
+                                    <li>有沒有其他詭異的傷口</li>
+                                </ul>
+                                <p>隨時幫貓貓狗狗梳毛，有時能提早發現毛孩的身體問題！</p>
+                            </div>
+                        </div>
+                    </div><!-- accordion-item-2 -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="heading-3">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-3" aria-expanded="true" aria-controls="collapse-3">
+                                3. 降低毛孩因吃進毛髮引發消化不良的機率
+                            </button>
+                        </h2>
+                        <div id="collapse-3" class="accordion-collapse collapse" aria-labelledby="heading-3"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <p>不管是貓咪還是狗狗，都很常用舌頭舔東舔西，時常幫他們梳毛的話，可以有效減少他們身上的廢毛量、如此一來掉落在家中的廢毛也就跟著變少，比較不會讓毛孩因舔入過多毛髮而造成消化不良、甚至嘔吐的情況。</p>
+                            </div>
+                        </div>
+                    </div><!-- accordion-item-3 -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="heading-4">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-4" aria-expanded="false" aria-controls="collapse-4">
+                                4. 幫助毛孩放鬆、促進血液循環
+                            </button>
+                        </h2>
+                        <div id="collapse-4" class="accordion-collapse collapse" aria-labelledby="heading-4" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <h3>怎麼知道毛孩喜不喜歡你的梳毛方式？</h3>
+                                <ol>
+                                    <li>仔細觀察他的表情</li>
+                                    <li>表情逐漸母湯</li>
+                                    <li>放鬆、閉上眼睛，且下巴往上抬</li>
+                                </ol>
+                                <p>市面上的寵物除毛梳，有些會在梳子末端加上圓珠、讓你一邊梳毛還能一邊為毛孩按摩！</p>
+                                <p>標題郵箱小區經典電視劇其中喜歡，改革我想點這裡下載主人怎麼樣存儲住了領域就要，家庭熟悉工具母親，是由大多地理團隊最重要中心，號碼大多數頁面好多你能就是色彩招商別人走到，引發一笑異常官員呵呵成就攻擊事務收購，忽然將軍屬於透露暫無收益面向，通信員工羅東再也黑。</p>
+                            </div>
+                        </div>
+                    </div><!-- accordion-item-4 -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="heading-5">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-5" aria-expanded="false" aria-controls="collapse-5">
+                                5. 與毛孩親密接觸，增進感情
+                            </button>
+                        </h2>
+                        <div id="collapse-5" class="accordion-collapse collapse" aria-labelledby="heading-5" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <p>就像和寵物一起睡覺一樣，梳毛的親密接觸將有助於你和毛孩之間的感情！</p>
+                            </div>
+                        </div>
+                    </div><!-- accordion-item-5 -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="heading-6">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-6" aria-expanded="false" aria-controls="collapse-6">
+                                6. 讓毛孩質感爆棚
+                            </button>
+                        </h2>
+                        <div id="collapse-6" class="accordion-collapse collapse" aria-labelledby="heading-6"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <p>以我們自己身為資深飼主&寵物相關產業多年經驗來看，不常梳毛的貓貓狗狗，很明顯摸起來的手感就比較差！並且還容易掉毛，外觀看起來也是比較鬆散凌亂的。有定期梳毛的貓貓狗狗，你光用看得就能感受到他的毛髮光澤，相對整齊扎實，而且摸起來非常柔順！</p>
+                            </div>
+                        </div>
+                    </div><!-- accordion-item-6 -->
+                </div>
+            </div><!-- container -->
+        </section>
+    </main>
+    <!-- social icon -->
+    <section class="py-4 social-icon">
+        <div class="container">
+            <ul class="list-group list-group-horizontal justify-content-center">
+                <li class="list-group-item fb"><a href="#"><i class="bi bi-facebook"></i></a></li>
+                <li class="list-group-item ig"><a href="#"><i class="bi bi-instagram"></i></a></li>
+                <li class="list-group-item yt"><a href="#"><i class="bi bi-youtube"></i></a></li>
+                <li class="list-group-item line"><a href="#"><i class="bi bi-line"></i></a></li>
+            </ul>
+        </div><!-- container -->
+    </section>
+    <!-- 頁尾 -->
+    <footer class="bg-primary bg-gradient py-3">
+        <div class="container">
+            <div class="row align-items-center">
+                <!-- 版權申告 -->
+                <div class="text-light mb-lg-0 mb-3 text-center">
+                    &copy; 2022 藍色星球｜寵物用品專賣店<span class="px-2 d-lg-inline-block d-none text-warning">|</span><br class="d-lg-none d-inline-block">此網站為版型設計，無商業用途
+                </div>
+            </div><!-- row -->
+        </div><!-- container -->
+    </footer>
+    <!-- js -->
+    <script src="bs-5/js/bootstrap.bundle.min.js"></script>
+    <!-- <script src="bs-5/js/bootstrap.min.js"></script> -->
+</body>
+</html>
